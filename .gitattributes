@@ -1,0 +1,4 @@
+extract-files.sh merge=ours
+setup-makefiles.sh merge=ours
+sm.mk merge=ours
+lineage.mk merge=ours
