@@ -327,4 +327,15 @@
          NOTE: This requires additional hardware-specific code. -->
     <bool name="config_uiBlurEnabled">true</bool>
 
+    <!-- Path to the library that contains a device specific key handler -->
+    <string name="config_deviceKeyHandlerLib" translatable="false">
+        <item>/system/framework/com.cyanogenmod.keyhandler.jar</item>
+    </string>
+
+    <!-- Name of that key handler class -->
+    <string name="config_deviceKeyHandlerClass" translatable="false">
+        <item>com.cyanogenmod.settings.device.KeyHandler</item>
+    </string>
+
+
 </resources>
