@@ -1,0 +1,3 @@
+add_lunch_combo cos_pme-user
+add_lunch_combo cos_pme-userdebug
+add_lunch_combo cos_pme-eng

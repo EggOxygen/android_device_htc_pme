@@ -13,11 +13,12 @@
 # limitations under the License.
 
 $(call inherit-product, device/htc/pme/full_pme.mk)
-$(call inherit-product, vendor/candy/config/common_full_phone.mk)
+$(call inherit-product, vendor/cos/common.mk)
 
 ## Device identifier. This must come after all inclusions
+COS_RELEASE := true
 PRODUCT_DEVICE := pme
-PRODUCT_NAME := candy_pme
+PRODUCT_NAME := cos_pme
 PRODUCT_BRAND := HTC
 PRODUCT_MODEL := HTC 10
 PRODUCT_MANUFACTURER := HTC
