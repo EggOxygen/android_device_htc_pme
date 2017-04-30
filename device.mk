@@ -147,8 +147,8 @@ PRODUCT_PACKAGES += \
 #    FlipFlap
 
 # Gesture Handler
-PRODUCT_PACKAGES += \
-    GestureHandler
+#PRODUCT_PACKAGES += \
+#    GestureHandler
 
 # GPS
 PRODUCT_PACKAGES += \
